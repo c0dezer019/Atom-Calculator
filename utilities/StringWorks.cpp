@@ -2,7 +2,7 @@
 
 using namespace std;
 
-char * StrToArr(string str)
+char* StrToArr(string str)
 {
     int n = str.length();
     char* arr = new char[n + 1];
