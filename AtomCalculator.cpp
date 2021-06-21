@@ -2,11 +2,16 @@
 //
 
 #include "AtomCalculator.h"
+#include "utilities/StringWorks.cpp"
+
 
 using namespace std;
 
 int main()
 {
-	cout << "Hello CMake." << endl;
+	string arr = "1+2";
+
+	cout << StrToArr(arr) << endl;
+
 	return 0;
 }
