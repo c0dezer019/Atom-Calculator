@@ -14,7 +14,5 @@ int main()
 	cout << "Expression: ";
 	cin >> input;
 
-	cout << "You entered " << StrToArr(input) << endl;
-
 	return 0;
 }
