@@ -2,10 +2,10 @@
 
 using namespace std;
 
-string StrToArr(string str)
+char * StrToArr(string str)
 {
     int n = str.length();
-    char arr[n + 1];
+    char* arr = new char[n + 1];
     strcpy(arr, str.c_str());
 
     return arr;

@@ -9,9 +9,12 @@ using namespace std;
 
 int main()
 {
-	string arr = "1+2";
+	string input;
 
-	cout << StrToArr(arr) << endl;
+	cout << "Expression: ";
+	cin >> input;
+
+	cout << "You entered " << StrToArr(input) << endl;
 
 	return 0;
 }
