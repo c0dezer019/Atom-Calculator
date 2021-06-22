@@ -14,7 +14,10 @@ int main()
 	cout << "Expression: ";
 	cin >> input;
 
-	char *a = StrToArr("1+2");
+	char *a = StrToArr(input);
+	char& ar = *a;
+
+	cout << *a[1] << endl;
 
 	return 0;
 }

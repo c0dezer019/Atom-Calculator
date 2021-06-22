@@ -1,12 +1,12 @@
-#include "StringWorks.h"
+#include "headers/StringWorks.h"
 
 using namespace std;
 
 char* StrToArr(string str)
 {
     int n = str.length();
-    int& NRef = n;
-    char* arr = new char[NRef + 1];
+    char* arr = new char[n + 1];
+    
     strcpy(arr, str.c_str());
 
     return arr;
